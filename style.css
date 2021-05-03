@@ -27,6 +27,10 @@ body {
   overflow: hidden;
 }
 
+.zoom {
+  margin: auto;
+}
+
 /* This css is only applied when fullscreen is active. */
 .player:fullscreen {
   max-width: none;
@@ -87,7 +91,7 @@ body {
 }
 
 .progress {
-  flex: 10;
+  flex: 0;
   position: relative;
   display: flex;
   flex-basis: 100%;
@@ -99,9 +103,9 @@ body {
 
 .progress__filled {
   width: 50%;
-  background: #ffc600;
+  background: #f13016;
   flex: 0;
-  flex-basis: 50%;
+  flex-basis: 0%;
 }
 
 /* unholy css to style input type="range" */
